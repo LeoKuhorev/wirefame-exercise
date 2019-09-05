@@ -1,0 +1,91 @@
+/*HEADER*/
+header {
+  background: #ddd;
+  height: 70px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav {
+  width: 960px;
+  margin: 0 auto;
+}
+nav img {
+  float: left;
+}
+nav ul li {
+  float: left;
+  width: 190px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+nav ul li:hover {
+  background: rgb(126, 126, 126);
+  transition: 350ms;
+}
+/*MAIN*/
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+#sub-banners {
+  margin: 30px 0;
+}
+#sub-banners section {
+  float: left;
+  width: 300px;
+  height: 375px;
+  border: 1px solid black;
+  background: #ddd;
+  text-align: center;
+  line-height: 375px;
+  margin-bottom: 30px;
+}
+#sub-banners section:nth-child(2) {
+  margin: 0 27px;
+}
+#featured-section {
+  margin: 30px 0;
+}
+#fs-banner {
+  float: left;
+  width: 50%;
+  height: 400px;
+  line-height: 400px;
+  text-align: center;
+  border: 1px solid black;
+  background: #ddd;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+#featured-section h3 {
+  font-size: 16pt;
+  margin-bottom: 1em;
+}
+#featured-section p {
+  float: left;
+  width: 445px;
+  height: 300px;
+  overflow: scroll;
+  overflow-x: hidden;
+  text-align: justify;
+}
+#featured-section button {
+  margin-top: 20px;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+}
+#featured-section button:hover {
+  background: rgb(126, 126, 126);
+  transition: 350ms;
+}
+
+/*FOOTER*/
+footer {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  background: #ddd;
+}
